@@ -16,5 +16,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref_name }}
-          repository: sleepyfoodie/kubernetes-mixin-copy
+          repository: sleepyfoodie/kubernetes-mixin-release-test
           generate_release_notes: true
