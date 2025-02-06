@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - "release-*" # Trigger the workflow on push events to release-* tags
+      - "version-*" # Trigger the workflow on push events to version-* tags
 
 jobs:
   release:
