@@ -1,4 +1,5 @@
 *.yaml
+!.github/workflows/*.yaml
 dashboards_out
 vendor
 jsonnetfile.lock.json
