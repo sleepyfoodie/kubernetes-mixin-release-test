@@ -1,14 +1,12 @@
 module _
 
-go 1.23.2
-
-toolchain go1.23.4
+go 1.24.5
 
 require (
 	github.com/Kunde21/markdownfmt/v3 v3.1.0
 	github.com/cloudflare/pint v0.70.0
 	github.com/errata-ai/vale/v3 v3.9.4
-	github.com/google/go-jsonnet v0.20.0
+	github.com/google/go-jsonnet v0.22.0
 	github.com/grafana/dashboard-linter v0.0.0-20231114210226-c458893a5731
 	github.com/jsonnet-bundler/jsonnet-bundler v0.6.0
 	github.com/prometheus/prometheus v0.301.0
@@ -228,17 +226,17 @@ require (
 	go.uber.org/goleak v1.3.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/ratelimit v0.3.1 // indirect
-	golang.org/x/crypto v0.32.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8 // indirect
-	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/net v0.34.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/oauth2 v0.25.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/term v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.8.0 // indirect
-	golang.org/x/tools v0.29.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/api v0.213.0 // indirect
 	google.golang.org/genproto v0.0.0-20240903143218-8af14fe29dc1 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241216192217-9240e9c98484 // indirect
